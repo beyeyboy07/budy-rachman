@@ -1143,3 +1143,25 @@ body {
     font-size: 15px;
   }
 }
+
+
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 22px;
+  color: #79a8ee;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: color 0.2s ease, gap 0.2s ease;
+}
+
+.project-link:hover {
+  color: #a4c8ff;
+  gap: 12px;
+}
+
+.project-link span {
+  font-size: 17px;
+}

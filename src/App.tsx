@@ -16,6 +16,7 @@ const projects = [
       'A digital wallet platform focused on account management, wallet balances, transfers, transaction history, and reliable backend processing.',
     stack: ['Go', 'React', 'MySQL', 'Docker', 'REST API'],
     status: 'PERSONAL PROJECT',
+    url: 'http://139.190.99.205/danqiva',
   },
   {
     number: '02',
@@ -265,6 +266,7 @@ function App() {
           </p>
         </div>
 
+        
         <div className="projects-grid">
           {projects.map((project) => (
             <article className="project-card" key={project.number}>
@@ -276,22 +278,35 @@ function App() {
               <div className="project-art" aria-hidden="true">
                 <span className="project-art-mark">{project.name.slice(0, 1)}</span>
                 <span className="project-art-line" />
-                <span className="project-art-caption">SYSTEM / {project.number}</span>
+                <span className="project-art-caption">
+                  SYSTEM / {project.number}
+                </span>
               </div>
 
               <div className="project-info">
                 <p className="project-type">{project.type}</p>
                 <h3>{project.name}</h3>
                 <p className="project-description">{project.description}</p>
+
                 <div className="project-stack">
                   {project.stack.map((item) => (
                     <span key={item}>{item}</span>
                   ))}
                 </div>
+
+                <a
+                  href={project.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project-link"
+                >
+                  Live Demo <span>↗</span>
+                </a>
               </div>
             </article>
           ))}
         </div>
+
       </section>
 
       <section className="contact-section" id="contact">
