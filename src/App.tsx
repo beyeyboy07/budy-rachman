@@ -27,7 +27,7 @@ const experiences = [
   },
   {
     period: '2019 — 2021',
-    role: 'Product Developmenssssssssssssst',
+    role: 'Product Development',
     company: 'PT Graha Informatika Nusantara',
     description:
       'Contributed to the development of internal business applications, including document management, HRIS, and other web-based systems. Worked on frontend implementation and API integration.',
