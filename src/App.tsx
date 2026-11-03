@@ -74,7 +74,7 @@ const projects = [
     description:
       'A cash flow and treasury management system designed to help individuals and businesses manage financial accounts, track income and expenses, and monitor financial activities.',
     stack: ['Go', 'Gin', 'React', 'MySQL', 'REST API'],
-    status: 'IN DEVELOPMENT',
+    status: 'Live Project',
     mark: 'C',
     url: 'https://www.budy-rachman.site/caelmont',
   },
