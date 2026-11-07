@@ -43,7 +43,7 @@ const projects = [
     description:
       'A digital wallet platform designed to simulate real-world financial operations, including wallet management, transaction processing, and authentication.',
     stack: ['Go', 'React', 'MySQL', 'Redis', 'Docker'],
-    status: 'LIVE PROJECT (Being Refined)',
+    status: 'Live Project (Being Refined)',
     mark: 'D',
     url: 'https://www.budy-rachman.site/danqiva',
   },
