@@ -43,7 +43,7 @@ const projects = [
     description:
       'A digital wallet platform designed to simulate real-world financial operations, including wallet management, transaction processing, and authentication.',
     stack: ['Go', 'React', 'MySQL', 'Redis', 'Docker'],
-    status: 'LIVE PROJECT',
+    status: 'LIVE PROJECT (Being Refined)',
     mark: 'D',
     url: 'https://www.budy-rachman.site/danqiva',
   },
@@ -64,7 +64,7 @@ const projects = [
     description:
       'A fleet and field service management system for handling service requests, work orders, technician assignments, scheduling, and service progress.',
     stack: ['Go', 'React', 'MySQL', 'REST API'],
-    status: 'IN DEVELOPMENT',
+    status: 'Live Project (Being Refined)',
     mark: 'S',
     url: 'https://www.budy-rachman.site/servixa',
   },
@@ -75,7 +75,7 @@ const projects = [
     description:
       'A cash flow and treasury management system designed to help individuals and businesses manage financial accounts, track income and expenses, and monitor financial activities.',
     stack: ['Go', 'Gin', 'React', 'MySQL', 'REST API'],
-    status: 'Live Project',
+    status: 'Live Project (Being Refined)',
     mark: 'C',
     url: 'https://www.budy-rachman.site/caelmont',
   },
