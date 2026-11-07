@@ -66,6 +66,7 @@ const projects = [
     stack: ['Go', 'React', 'MySQL', 'REST API'],
     status: 'IN DEVELOPMENT',
     mark: 'S',
+    url: 'https://www.budy-rachman.site/servixa',
   },
   {
     number: '04',
@@ -92,12 +93,19 @@ function App() {
           </span>
         </a>
 
-        <div className="nav-links">
-          <a href="#about">About</a>
-          <a href="#skills">Skills</a>
-          <a href="#experience">Experience</a>
-          <a href="#projects">Projects</a>
-        </div>
+      <div className="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a
+          href="https://github.com/beyeyboy07"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub ↗
+        </a>
+      </div>
 
         <a
           href="#contact"
